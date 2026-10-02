@@ -209,3 +209,15 @@ slides.style.transform = "translateX(-" + slideIndex * 100 + "%)"
 
 setInterval(nextSlide,4000)
 
+module.exports = {
+  criarCliente,
+  cadastrarPet,
+  criarProduto,
+  adicionarCarrinho,
+  removerCarrinho,
+  calcularTotal,
+  finalizarCompra,
+  nextSlide,
+  prevSlide,
+  updateSlide
+}
